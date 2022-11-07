@@ -1,0 +1,15 @@
+{
+  "name": "rt-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rudderstack/rudder-sdk-node": "^1.1.4",
+    "rudder-typer": "^1.0.0-beta.5"
+  }
+}

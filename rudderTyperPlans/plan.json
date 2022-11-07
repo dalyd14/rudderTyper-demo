@@ -1,0 +1,134 @@
+{
+	"create_time": "2022-11-04T21:01:26.343Z",
+	"display_name": "RT Plan 2",
+	"name": "workspaces/1zmi0ez8cLqhx234w2zKnWuHVdw/tracking-plans/tp_2H6BWiTEkG7ckTe3XDEBbMgVBAY",
+	"rules": {
+		"events": [
+			{
+				"description": "event descrip missing",
+				"id": "ev_27fQjpoL50U4tQQvXeMdjAaGnxh",
+				"name": "Test Event",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"properties": {
+						"properties": {
+							"additionalProperties": false,
+							"properties": {
+								"number": {
+									"type": [
+										"integer"
+									]
+								},
+								"product": {
+									"type": [
+										"string"
+									]
+								},
+								"some_id": {
+									"type": [
+										"string"
+									]
+								},
+								"something": {
+									"type": [
+										"string"
+									]
+								}
+							},
+							"required": [
+								"some_id"
+							],
+							"type": "object"
+						}
+					},
+					"required": [
+						"properties"
+					],
+					"type": "object"
+				},
+				"version": "3-0-0"
+			},
+			{
+				"description": "event descrip missing",
+				"id": "ev_2H6BWnR7PYG3733ccT47y1mpYbK",
+				"name": "Some other event",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"properties": {
+						"properties": {
+							"additionalProperties": false,
+							"properties": {
+								"here": {
+									"type": [
+										"string"
+									]
+								},
+								"id": {
+									"type": [
+										"string"
+									]
+								},
+								"yea": {
+									"type": [
+										"string"
+									]
+								}
+							},
+							"required": [
+							],
+							"type": "object"
+						}
+					},
+					"type": "object"
+				},
+				"version": "1-0-0"
+			},
+			{
+				"description": "fdf",
+				"id": "ev_2H6CG2S1sXP2oC38k8EhnI3cH8F",
+				"name": "Please Show Up",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"properties": {
+						"properties": {
+							"additionalProperties": false,
+							"properties": {
+								"did_it": {
+									"type": [
+										"string"
+									]
+								},
+								"please": {
+									"type": [
+										"string"
+									]
+								},
+								"show": {
+									"type": [
+										"string"
+									]
+								},
+								"up": {
+									"type": [
+										"string"
+									]
+								}
+							},
+							"required": [
+								"did_it"
+							],
+							"type": "object"
+						}
+					},
+					"required": [
+						"properties"
+					],
+					"type": "object"
+				},
+				"version": "2-0-0"
+			}
+		]
+	},
+	"update_time": "2022-11-04T21:09:57.027Z",
+	"version": 4
+}
